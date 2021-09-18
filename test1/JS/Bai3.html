@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="khai()">
+<label for="">Mời bạn nhập :</label>
+<input type="text" onkeypress="myfunction()">
+<div onmouseover="MOver(this)" onmouseout="MOut(this)" style="background-color: pink; width: 120px; height: 50px; padding: 40px; margin: 30px;">Hello</div>
+
+<p>Sử dụng Focus và Onchange</p>
+<label for="">Nhập đi nào : </label>
+<input type="text" id="fname" onchange="myonchange()" onfocus="MyFocus(this)">
+<script>
+    function myfunction(){
+        alert("you pressed a key inside the input field");
+    }
+    function MOver(obj){
+        obj.innerHTML = "Chào bạn !"
+
+    }
+    function MOut(obj){
+        obj.innerHTML = "Mouse over me"
+    }
+    function MyFocus(obj){
+        obj.style.background = "yellow";
+    }
+    function khai(){
+        alert("Xin chào bạn !");
+    }
+    function myonchange(){
+        var x = document.getElementById("fname");
+        x.value = x.value.toUpperCase();
+    }
+</script>
+
+
+</body>
+</html>

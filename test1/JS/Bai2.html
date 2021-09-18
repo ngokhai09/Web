@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<p>{name : "Ngô Văn Khải", age: 19, address: "Hà Nội"}</p>
+<button onclick="getName()">Click to name</button>
+<p class="getname"></p>
+<p class="typename"></p>
+<button onclick="getAge()">Click to get Age</button>
+<p class="getage"></p>
+<p class="typeage"></p>
+<button onclick="getAddress()">Click to get Address</button>
+<p class="getaddress"></p>
+<p class="typeaddress"></p>
+
+<p id="demo"></p>
+<button onclick="demosort()">Click to sort</button>
+<br><br>
+<button onclick="demorad()">Click to here</button>
+<p id="rand"></p>
+
+<script>
+    var arr = {name : "Ngô Văn Khải",age: 19, address: "Hà Nội"}
+
+
+    function getName(){
+        document.querySelector('.getname').innerText = arr.name
+        document.querySelector('.typename').innerText ="Typeof name : " + typeof(arr.name)
+    }
+    function getAge(){
+        document.querySelector('.getage').innerText = arr.age
+        document.querySelector('.typeage').innerText ="Typeof age : " + typeof(arr.age)
+    }
+    function getAddress(){
+        document.querySelector('.getaddress').innerText = arr.address
+        document.querySelector('.typeaddress').innerText ="Typeof address : " + typeof(arr.address)
+    }
+
+    var a=["Ngô","Văn","Khải"];
+    document.getElementById('demo').innerHTML=a;
+    function demosort(){
+        a.sort();
+        document.getElementById('demo').innerHTML=a;
+    }
+    function demorad(){
+        document.getElementById('rand').innerHTML=Math.floor(Math.random()*100);
+    }
+</script>
+</body>
+</html>

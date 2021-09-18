@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .o-vuong{
+            border: 1px solid;
+            width: 15px;
+            height: 15px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <script !src="">
+        class Sinhvien{
+            constructor(stt, hoTen, lop) {
+                this.stt = stt;
+                this.hoTen = hoTen;
+                this.lop = lop;
+            }
+        }
+        let sv1 = new Sinhvien(1, "Ngũ", "CNTT4");
+        let sv2 = new Sinhvien(2, "Mai", "CNTT2");
+        let arrSv = [sv1, sv2];
+        console.log(arrSv);
+        let str = "";
+        for(let i = 0; i < arrSv.length; i++)
+            str += "<h1>" + arrSv[i].hoTen + "</h1>";
+        document.write(str)
+        console.log(str)
+    </script>
+</body>
+</html>

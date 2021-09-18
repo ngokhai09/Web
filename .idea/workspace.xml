@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66b6d78d-ab49-4708-bea6-c35498debe3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test1/Workspace/Lesson9/lab.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapLon/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapLon/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapLon/Js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapLon/Js/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapLon/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapLon/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapLon/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapLon/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/BTL_TKe_Web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/BTL_TKe_Web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/New/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/New/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/New/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/New/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/Workspace/Lesson10/lab.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/Workspace/Lesson10/ppc-lubricants-logo-underline.png" beforeDir="false" afterPath="$PROJECT_DIR$/test1/Workspace/Lesson9/ppc-lubricants-logo-underline.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/BaiTapLon" />
+  </component>
+  <component name="ProjectId" id="1j8hI2tPNnKnTYZCqUlg3KL7M5z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Web\BaiTapLon\BMW" />
+      <recent name="D:\Code\Web\BaiTapLon\Lambo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Web\BaiTapLon\Vin" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66b6d78d-ab49-4708-bea6-c35498debe3d" name="Default Changelist" comment="" />
+      <created>1603191543145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603191543145</updated>
+      <workItem from="1603191544292" duration="619000" />
+      <workItem from="1603192187667" duration="164000" />
+      <workItem from="1603192384111" duration="56000" />
+      <workItem from="1603192462664" duration="4756000" />
+      <workItem from="1603203195670" duration="27000" />
+      <workItem from="1603633208221" duration="9000" />
+      <workItem from="1603682411950" duration="1122000" />
+      <workItem from="1603684310861" duration="1080000" />
+      <workItem from="1603711356074" duration="5944000" />
+      <workItem from="1603722308849" duration="1677000" />
+      <workItem from="1603757632982" duration="659000" />
+      <workItem from="1603884880922" duration="2409000" />
+      <workItem from="1603892663569" duration="1076000" />
+      <workItem from="1603899106706" duration="659000" />
+      <workItem from="1604285494530" duration="3227000" />
+      <workItem from="1604315620062" duration="5990000" />
+      <workItem from="1604328250669" duration="741000" />
+      <workItem from="1604363253798" duration="1427000" />
+      <workItem from="1604366655462" duration="2785000" />
+      <workItem from="1604370062645" duration="6000" />
+      <workItem from="1604370182331" duration="50000" />
+      <workItem from="1604392290532" duration="3691000" />
+      <workItem from="1604412208899" duration="1503000" />
+      <workItem from="1604631012691" duration="2455000" />
+      <workItem from="1604721991781" duration="10000" />
+      <workItem from="1604758019950" duration="4016000" />
+      <workItem from="1604773798082" duration="2005000" />
+      <workItem from="1604809716657" duration="3722000" />
+      <workItem from="1604835357335" duration="1192000" />
+      <workItem from="1604893835096" duration="2041000" />
+      <workItem from="1604918976295" duration="7626000" />
+      <workItem from="1605087145896" duration="91000" />
+      <workItem from="1605088402969" duration="167000" />
+      <workItem from="1605109134830" duration="2370000" />
+      <workItem from="1605150397695" duration="2086000" />
+      <workItem from="1605162590356" duration="2349000" />
+      <workItem from="1605360846850" duration="957000" />
+      <workItem from="1605437939072" duration="1787000" />
+      <workItem from="1605494600616" duration="2582000" />
+      <workItem from="1605540185625" duration="1408000" />
+      <workItem from="1605581842183" duration="624000" />
+      <workItem from="1605622731522" duration="3057000" />
+      <workItem from="1605889949784" duration="890000" />
+      <workItem from="1605927549671" duration="3429000" />
+      <workItem from="1605952843559" duration="6221000" />
+      <workItem from="1606048755779" duration="7501000" />
+      <workItem from="1606115470233" duration="979000" />
+      <workItem from="1606191328756" duration="1027000" />
+      <workItem from="1606295733199" duration="2349000" />
+      <workItem from="1606362734537" duration="598000" />
+      <workItem from="1606371337066" duration="338000" />
+      <workItem from="1606372082548" duration="5453000" />
+      <workItem from="1606383538499" duration="3126000" />
+      <workItem from="1608198027355" duration="2461000" />
+      <workItem from="1608220909283" duration="886000" />
+      <workItem from="1608687624236" duration="191000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="443" y="159" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606055187177">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="443" y="151" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1603712049645" />
+    <state x="443" y="159" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1606055187177" />
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605361081479">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1605361081479" />
+    <state x="442" y="228" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605890652791">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="442" y="216" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1603684321625" />
+    <state x="442" y="228" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1605890652791" />
+    <state x="191" y="6" key="SettingsEditor" timestamp="1604635333761">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="191" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604635333761" />
+    <state x="191" y="6" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1603757695073" />
+    <state x="0" y="0" width="632" height="728" key="find.popup" timestamp="1603193045928">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="632" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1603193045928" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1604319911634">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1604319911634" />
+  </component>
+</project>

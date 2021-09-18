@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function checkid(){
+            var ck=document.getElementById('Userid').value;
+            var a=/^[a-zA-Z0-9]{5,12}$/
+            if(!a.test(ck)){
+                document.getElementById('erronid').style.display='block';
+                document.getElementById('erronid').innerHTML='Vui lòng nhập 5-12 kí tự';
+            }
+            else{
+                document.getElementById('erronid').innerHTML="";
+            }
+        }
+        function checkpass(){
+            var ck=document.getElementById('Password').value;
+            var a=/^[a-zA-Z0-9]{7,12}$/
+            if(!a.test(ck)){
+                document.getElementById('erronps').style.display='block';
+                document.getElementById('erronps').innerHTML='Vui lòng nhập 7-12 kí tự';
+            }
+            else{
+                document.getElementById('erronps').innerHTML="";
+            }
+        }
+        function checkname(){
+            var ck=document.getElementById('Name').value;
+            var a=/[a-zA-Z]/
+            if(!a.test(ck)){
+                document.getElementById('erronn').style.display='block';
+                document.getElementById('erronn').innerHTML='';
+            }
+            else{
+                document.getElementById('erronn').innerHTML="";
+            }
+        }
+        function checkcode(){
+            var ck=document.getElementById('Zipcode').value;
+            var a=/[0-9]/
+            if(!a.test(ck)){
+                document.getElementById('erroncode').style.display='block';
+                document.getElementById('erroncode').innerHTML='Vui long nhap cac so 0-9';
+            }
+            else{
+                document.getElementById('erroncode').innerHTML="";
+            }
+        }
+        function checkemail(){
+            var ck=document.getElementById('Email').value;
+            var a=/^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+            if(!a.test(ck)){
+                document.getElementById('erronemail').style.display='block';
+
+            }
+            else{
+                document.getElementById('erronemail').innerHTML="";
+            }
+        }
+
+        function sub(){
+            var a=document.getElementsByTagName('input');
+            console.log(a);
+            var userid=a[0].value;
+            var password=a[1].value;
+            var name=a[2].value;
+            var code=a[4].value;
+            var email=a[5].value;
+            var sexm=a[6].value;
+            var sexfm=a[7].value;
+            var e=a[8].checked;
+            var ne=a[9].checked;
+            if(userid==""||password==""||name==""||country==""||code==""||email==""){
+                alert('Mời bạn nhập đầy đủ thông tin ');
+            }
+        }
+    </script>
+    <style>
+        label{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<h1>Registration Form</h1>
+<div>
+
+    <form>
+        <table>
+            <tbody>
+            <tr>
+                <td>
+                    <label  for="Userid">User id : </label>
+                </td>
+                <td>
+                    <input type="text" id="Userid" onblur="checkid()">
+                    <span id="erronid"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Password">Password : </label>
+                </td>
+                <td>
+                    <input type="password" id="Password" onblur="checkpass()">
+                    <span id="erronps"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Name">Name : </label>
+                </td>
+                <td>
+                    <input type="text" id="Name" name="Fullname" onblur="checkname">
+                    <span class="erron" id="erronn" style="display: block;"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Address">Address : </label>
+                </td>
+                <td>
+                    <input type="text" id="Address">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Country">Country : </label>
+                </td>
+                <td>
+                    <select name="Country1" id="Country">
+                        <option value="1">Hà Nội</option>
+                        <option value="2">Hồ Chí Minh</option>
+                        <option value="3">Phú Thọ</option>
+                        <option value="4">Cà Mau</option>
+                        <option value="5">Vĩnh Phúc</option>
+                        <option value="6">Lào Cai</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Zipcode">Zip Code :</label>
+                </td>
+                <td>
+                    <input type="text" id="Zipcode">
+                    <span id="erroncode" style="display: block;"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Email">Email : </label>
+                </td>
+                <td>
+                    <input type="email" id="Email" onblur="checkemail">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Sex :</label>
+                </td>
+                <td>
+                    <label for="rdom1">Male</label>
+                    <input type="radio" name="gen" value="1" id="rdom1" checked>
+                    <label for="rdom2">Female</label>
+                    <input type="radio" name="gen" value="2" id="rdom2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Language">Language :</label>
+                </td>
+                <td>
+                    <label for="Es">English</label>
+                    <input type="radio" name="language" id="Es" checked>
+                    <label for="NEs">Viet Nam</label>
+                    <input type="radio" name="language" id="NEs">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="about">About : </label>
+                </td>
+                <td>
+                    <textarea  id="about" cols="30" rows="5" ></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><input style="font-weight: bold; " onclick="sub()" type="submit"></td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+</body>
+</html>

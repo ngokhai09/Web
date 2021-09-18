@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.phantren {
+    width: 100%;
+    height: 100px;
+    color: yellow;
+    background: purple;
+    border: 5px outset aqua;
+}
+
+.phangiua {
+    width: 100%;
+    height: 100px;
+    color: yellow;
+    background: yellow;
+    margin: 5px;
+}
+
+.trai {
+    width: 30%;
+    float: left;
+    height: 100px;
+    color: chocolate;
+    background: red;
+}
+
+.giua {
+    width: 40%;
+    float: left;
+    height: 100px;
+    color: chocolate;
+    background: blue;
+}
+
+.phai {
+    width: 30%;
+    float: left;
+    height: 100px;
+    color: chocolate;
+    background: red;
+}
+
+.phanduoi {
+    width: 100%;
+    height: 100px;
+    color: yellow;
+    background: black;
+    margin: 5px;
+}

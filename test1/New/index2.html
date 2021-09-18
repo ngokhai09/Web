@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Tổng tiền: <p id="sum"></p></h1>
+    <h1>Tổng số lượng: <p id="count"></p></h1>
+<script>
+
+    function up(id){
+        let sumNumber = +sum.innerText;
+        sumNumber += arrPro[id].price;
+        sum.innerText = sumNumber;
+        alert(arrPro[id].name);
+    }
+    class Product {
+            constructor(name, price, img) {
+                this.name = name;
+                this.price = price;
+                this.img = img;
+            }
+        }
+
+        let p1 = new Product("Hello", 100, "../BTL_TKe_Web/img/1.jpg");
+        let p2 = new Product("Alo", 200, "../BTL_TKe_Web/img/3.jpg");
+        let p3 = new Product("Blo", 300, "../BTL_TKe_Web/img/4.jpg");
+        let p4 = new Product("Clo", 400, "../BTL_TKe_Web/img/5.jpg");
+        let p5 = new Product("Dlo", 500, "../BTL_TKe_Web/img/6.jpg");
+        let arrPro = [p1, p2, p3, p4, p5];
+        let str ='';
+        for(let i = 0; i < arrPro.length; i++) {
+            str += '<hr>';
+            str +=  '<h1>' + arrPro[i].name + '</h1>';
+            str += '<h1>' + arrPro[i].price + '</h1>';
+            str += '<h1><button onclick="up('+i+')">UP</button></h1>';
+
+        }
+    document.write(str);
+
+</script>
+</body>
+</html>
